@@ -216,7 +216,7 @@ constraints cannot be reconciled, and so we will get an error at the call site o
 
 ### Subtyping
 
-Width subtyping applies only when the table in the supertype position is exact.
+Width subtyping applies only when the table in the supertype position is inexact.
 
 ```
 {x: T, y: U, ...} <:  {x: T, ...}
